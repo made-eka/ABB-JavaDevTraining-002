@@ -21,6 +21,7 @@
 		</property>
 	</bean>
 
+	<import resource="springBeanConfiguration.xml"/>
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 	
 	<mvc:annotation-driven />
